@@ -49,9 +49,18 @@ public class Loops {
 
 
                     }
+                //for each loop
+           //Array declaration
+
+           int ar[]={1,2,3,5,7,11,13,17,19};
+                //Using for-each loop to print the array
+           for(int b:ar){
+               System.out.println(b);
+
+           }
 
 
-        }
+       }
 
 
         }
