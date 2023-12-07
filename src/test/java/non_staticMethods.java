@@ -14,5 +14,7 @@ public class non_staticMethods {
 
         //Student.setName("Bob"); // Will not work!
        // Student.getName(); // Will not work!
+
     }
+
 
