@@ -9,10 +9,12 @@ public class Mmain {
         Person person = new Person();
         person.setName("John");
         person.setAge(30);
+        person.setName("Adel");
         System.out.println("Name: " + person.getName());
         System.out.println("Age: " + person.getAge());
         //
         //
+
 
     }
 
