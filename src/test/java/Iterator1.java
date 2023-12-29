@@ -15,6 +15,7 @@ public class Iterator1 {
         //looping thought a collection
         while(it.hasNext()){
             System.out.println(it.next());
+            //
         }
     }
 
