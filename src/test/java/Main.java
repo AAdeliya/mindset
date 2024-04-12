@@ -11,4 +11,7 @@ public static void main(String[] args){  //this is entry point of Java program
     //println is a method of out that can be used to print a line
 
 }
+//method should be under class
+//class is blueprint
+
 }
