@@ -15,7 +15,9 @@ public class StaticMethod {
         nums[1]=3;
         nums[2]=3;
         nums[3]=3;
+        nums[4]=3;
         return nums;
+
 //move obvious 
 //the same meaning
 
