@@ -1,10 +1,25 @@
 public class Person {
-    private String name;
+    private String firstname;
     private int age;
+    private String name;
+    private String lastname;
 
-    public String getName()
-    { return name
-            ;
+    public Person(){
+        //no arg constructor, does not take any inputs
+
+    }
+    public Person(String firstname, String lastname, int age){
+        this.firstname= firstname;
+        this.lastname= lastname;
+        this.age= age;
+
+        //you can pass a value for firstname, lastname, age
+
+
+    }
+    public String getFirstName()
+    { 
+        return firstname;
 
     }
     public int getAge(){ return age;}
