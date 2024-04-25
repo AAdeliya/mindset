@@ -19,7 +19,7 @@ public class Person {
     }
     public String getFirstName()
     { 
-        return firstname;
+        return firstname.substring(0, 1).toUpperCase() + firstname.substring(1);
 
     }
     public int getAge(){ return age;}
