@@ -16,7 +16,14 @@ public class LearnStrings {
 
         String myText2= "ADDD";
         System.out.println(myText2.toLowerCase());
-        //
+        
+        String myTextadel="apple";
+        String FirstPartOfText = myTextadel.substring(0,1).toUpperCase();
+        String secondPart=myTextadel.substring(1 );
+        String myNewText= FirstPartOfText.concat(secondPart);
+        System.out.println(myNewText);
+        //meaninful name 
+
 
 
 
