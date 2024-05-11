@@ -6,7 +6,7 @@ public class RegexPractice {
         //System.out.println("cat".matches("[^c]at"));
          //\\w for letters 
          //\\d for numbers 
-         String regex= "(1[-.,\\s]?)?(\\d{3}[-.,\\s]?)(\\d{3}[-.,\\s]?)\\d{4}";
+         String regex= "\\d{1,2}(1[-.,\\s]?)?(\\d{3}[-.,\\s]?)(\\d{3}[-.,\\s]?)\\d{4}";
 
          //{1,2}--qualifiers, how many times this patttern should be applied
          String phoneNumber="1.232.333.2365";
@@ -21,7 +21,7 @@ public class RegexPractice {
           System.out.println(mat.group(1));
           System.out.println(mat.group(2));
           System.out.println(mat.group(3));
-          
+          System.out.println(mat.group(0));// whole string
           //true
           //null
           //333.
