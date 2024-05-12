@@ -19,5 +19,13 @@ public class Static {
           myObj.myPublicMethod(); // Call the public method
         }
       }
+
+      //instead of creating an instance of Foo and then calling doStuff like this:
+
+// Foo f = new Foo();
+// f.doStuff();
+// You just call the method directly against the class, like so:
+
+// Foo.doStuff();
     
 
