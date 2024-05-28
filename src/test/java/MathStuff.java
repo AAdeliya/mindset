@@ -6,7 +6,10 @@ public class MathStuff {
        int num2=4;
 
       System.out.println(num1+num2);
-      
+      int x =1;
+      System.out.println(x);
+      x++; //x=x+1 or x+=1;
+      System.out.println(x);
 
     }
     
