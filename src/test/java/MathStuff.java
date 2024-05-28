@@ -10,6 +10,8 @@ public class MathStuff {
       System.out.println(x);
       x++; //x=x+1 or x+=1;
       System.out.println(x);
+      boolean myFlag= true;
+      System.out.println(!myFlag); //1 bit of memory allocation
 
     }
     
