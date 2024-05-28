@@ -1,3 +1,6 @@
+import java.security.SecureRandom;
+import java.util.Random;
+
 public class Math {
     public static void main(String[] args) {
         //System.out.println(Math.ceil(5.0)); //round up to integer celling
@@ -9,7 +12,28 @@ public class Math {
         //random -->
         //sqrt-->root
         //Math.PI
+        Random random= new Random();
+        System.out.println(random.nextInt(10));
+        SecureRandom random1= new SecureRandom();
+        System.out.println(random1.nextInt(10));
+
+
+
+    
+    }
+    //public static double calcAreaCircle(double radius){
+        //A=PI*r^2
+        //return Math.PI * Math.pow(radius, 2);
+
 
     }
+
+
+
+
+
+
+
+
     
 }
