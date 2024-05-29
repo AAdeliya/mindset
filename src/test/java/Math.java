@@ -24,6 +24,8 @@ public class Math {
     int num1= 3;
     int num2= 3;
     System.out.println(num1==num2);
+    //!=is not equal 
+    
 
     
     //public static double calcAreaCircle(double radius){
