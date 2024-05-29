@@ -20,12 +20,17 @@ public class Math {
 
 
     
-    }
+    
+    int num1= 3;
+    int num2= 3;
+    System.out.println(num1==num2);
+
+    
     //public static double calcAreaCircle(double radius){
         //A=PI*r^2
         //return Math.PI * Math.pow(radius, 2);
 
-
+    }
     }
 
 
@@ -36,4 +41,4 @@ public class Math {
 
 
     
-}
+
