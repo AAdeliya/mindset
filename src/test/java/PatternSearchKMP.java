@@ -1,15 +1,13 @@
 
-    import java.util.Scanner;
+    
+import java.util.Scanner;
 
 public class PatternSearchKMP {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        String text = scanner.nextLine();   // Input the string
-        String pattern = scanner.nextLine(); // Input the pattern
-
+        String text= "saippuakauppias";
+        String pattern = "pp";
         System.out.println(countOccurrences(text, pattern));
-        scanner.close();
     }
 
     public static int countOccurrences(String text, String pattern) {
@@ -53,4 +51,3 @@ public class PatternSearchKMP {
         return pi;
     }
 }
-    
