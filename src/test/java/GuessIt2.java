@@ -15,7 +15,7 @@ public class GuessIt2 {
             }else{
                 System.out.printf("You dind't get it !%n");
 
-            }
+            }//
 
             }
         }
