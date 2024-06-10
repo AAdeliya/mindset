@@ -4,6 +4,7 @@ public class GuessIt2 {
     public static void main(String[] args) {
         int random = new Random().nextInt(10) +1;
         System.out.printf("Random number is %d.%n", random);
+       
         String gussedNumbertext= null;
         int wrongGuessCount =0;
 
