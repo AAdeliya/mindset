@@ -24,7 +24,12 @@ public class GuessIt2 {
                 wrongGuessCount++;
 
                 System.out.printf("You dind't get it !%n");
+if (wrongGuessCount >=4){
+    System.out.printf("You've had %d incorrect guesses. The random number ");
+return; 
 
+
+}
             }
 
             }
