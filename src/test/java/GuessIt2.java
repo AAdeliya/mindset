@@ -6,6 +6,7 @@ public class GuessIt2 {
         System.out.printf("Random number is %d.%n", random);
        
         String gussedNumbertext= null; 
+        //
         
         int wrongGuessCount =1;
         do{//execute at least one
