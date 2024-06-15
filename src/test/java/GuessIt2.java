@@ -23,6 +23,7 @@ public class GuessIt2 {
                 return;
             }else{
                 wrongGuessCount++;
+                //
 
                 System.out.printf("You dind't get it !%n");
 if (wrongGuessCount >=4){
