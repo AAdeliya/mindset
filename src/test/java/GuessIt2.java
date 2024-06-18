@@ -24,7 +24,7 @@ public class GuessIt2 {
             }else{
                 wrongGuessCount++;
                 //
-                //cc
+                //
 
                 System.out.printf("You dind't get it !%n");
 if (wrongGuessCount >=4){
