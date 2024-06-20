@@ -24,6 +24,7 @@ public class Stack {
                 p = lessFromRight[p];
             }
             lessFromRight[i] = p;
+            //
         }
     
         int maxArea = 0;
