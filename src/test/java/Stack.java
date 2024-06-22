@@ -16,6 +16,7 @@ public class Stack {
             }
             lessFromLeft[i] = p;
             //
+            //
         }
     
         for (int i = height.length - 2; i >= 0; i--) {
