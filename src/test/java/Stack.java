@@ -31,6 +31,7 @@ public class Stack {
         for (int i = 0; i < height.length; i++) {
             maxArea = Math.max(maxArea, height[i] * (lessFromRight[i] - lessFromLeft[i] - 1));
         }
+        //
     
         return maxArea;
     }
