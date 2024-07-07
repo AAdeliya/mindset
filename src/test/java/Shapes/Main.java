@@ -9,7 +9,7 @@ public class Main {
         System.out.println("Perimeter of square: " + Square.square.squarePerimeter(3));
         System.out.println("Area of triangle : " + Triangle.triangle.triangleArea(2, 2));
         System.out.println("Perimeter of triangle: " + Triangle.triangle.trianglePerimeter(2, 4, 3));
-        //
+        
 
 
     }
