@@ -1,6 +1,6 @@
 package ComputerScienceClass;
 
-public class Abstraction {
+
     abstract class Animal {
 //         public abstract void animalSound();
 //         public void sleep(){
@@ -23,4 +23,4 @@ public class Abstraction {
 //         }
         
     
-// }
+ }
