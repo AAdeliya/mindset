@@ -1,5 +1,4 @@
 package ComputerScienceClass.BankingSystem2.controller;
-
 import ComputerScienceClass.BankingSystem2.model.BankAccountModel;
 import ComputerScienceClass.BankingSystem2.model.CheckingAccount;
 import ComputerScienceClass.BankingSystem2.model.SavingsAccount;
@@ -19,24 +18,26 @@ public class BankController {
         
         
         if (command.equalsIgnoreCase("savings")) {
-            this.account = new SavingsAccount(2000, accountNumber, password, pin, 0.05);
+            this.account = new SavingsAccount(2000, "111", "111", 111, 0.05);
             System.out.println("Account type is Savings");
             } else {
                 view.showMessage("Account type is Checking");
-                this.account = new CheckingAccount(1000, accountNumber, password, pin, 2);
+                this.account = new CheckingAccount(1000, "222", "222", 222, 2);
+         
             }
     }
-    
-            
-            
-   
     
     public void run() {
         String inputPassword = view.getPassword();
         int inputPin = view.getPin();
-
+        String inputAccountNumber = view.getAccountNumber();
+       
+        // if(!account.validateAccountNumber(inputAccountNumber)){
+        //     view.showMessage(inputAccountNumber + "Account Number does not exist!");
+        // }
+        
         if (!account.validatePassword(inputPassword) || !account.validatePin(inputPin)) {
-            view.showMessage("Authentication failed.");
+            view.showMessage("Authentication failed. Please provide correct password!");
             return;
         }
 

@@ -45,5 +45,9 @@ public class BankAccountModel {
     public String getAccountNumber(){
         return accountNumber;
     }
+    public boolean validateAccountNumber(String inputAccountNumber){
+        return this.accountNumber.equals(accountNumber);
+
+    }
 }
 
