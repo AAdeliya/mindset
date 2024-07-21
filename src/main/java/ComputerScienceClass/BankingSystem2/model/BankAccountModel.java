@@ -1,10 +1,19 @@
 package ComputerScienceClass.BankingSystem2.model;
 
 public class BankAccountModel {
-    private double balance;
+    protected double balance;
+    protected String accountNumber;
+    protected String password;
+    protected int pin;
+    
 
-    public BankAccountModel(double initialBalance){
+
+    public BankAccountModel(double initialBalance, String accountNumber, String password, int pin){
         this.balance = initialBalance;
+        this.accountNumber = accountNumber;
+        this.password = password;
+        this.pin= pin;
+
     }
     public double getBalance() {
         return balance;
@@ -24,6 +33,17 @@ public class BankAccountModel {
             return true;
         }
         return false;
+    }
+    public boolean validatePassword(String inputPassword){
+        return this.password.equals(inputPassword);
+
+    }
+    public boolean validatePin(int inputPin){
+        return this.pin ==inputPin;
+
+    }
+    public String getAccountNumber(){
+        return accountNumber;
     }
 }
 

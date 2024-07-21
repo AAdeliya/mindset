@@ -25,6 +25,27 @@ public class BankView {
     public void showMessage(String message) {
         System.out.println(message);
     }
+    public String  getAccountType(){
+        System.out.println("Enter account type (savings, checking) : ");
+        return scanner.nextLine();
+
+
+    }
+    public String getAccountNumber() {
+        System.out.println("Enter account number: ");
+        return scanner.nextLine();
+    }
+
+    public String getPassword() {
+        System.out.println("Enter password: ");
+        return scanner.nextLine();
+    }
+
+    public int getPin() {
+        System.out.println("Enter PIN: ");
+        return scanner.nextInt();
+    }
+}
 
     
-}
+
