@@ -13,7 +13,7 @@ public class BankAccountModel {
         this.accountNumber = accountNumber;
         this.password = password;
         this.pin= pin;
-        //
+    
 
     }
     public double getBalance() {
