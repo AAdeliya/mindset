@@ -28,7 +28,7 @@ public class BankView {
     public String  getAccountType(){
         System.out.println("Enter account type (savings, checking) : ");
         return scanner.nextLine();
-
+//
 
     }
     public String getAccountNumber() {
