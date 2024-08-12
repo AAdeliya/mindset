@@ -14,7 +14,7 @@ public class BankController {
         String accountNumber = view.getAccountNumber();
         String password = view.getPassword();
         int pin = view.getPin();
-        String command = view.getAccountType();
+        String command = view.getAccountType();//
         
         
         if (command.equalsIgnoreCase("savings")) {
