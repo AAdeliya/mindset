@@ -7,7 +7,7 @@ public class SavingsAccount extends BankAccountModel{
         this.interestRate= interestRate;
 
     }
-    public void addInterest(){
+    public void addInterest() {
         balance +=balance *interestRate;
 
     }

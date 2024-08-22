@@ -20,8 +20,5 @@ public class Exception {
     private static int computeDivision(int a, int b) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'computeDivision'");
-    }
-
-
-    
+    } 
 }

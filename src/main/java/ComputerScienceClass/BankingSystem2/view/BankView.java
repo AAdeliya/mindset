@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class BankView {
     private Scanner scanner;
 
-    public BankView(){
+    public BankView() {
         scanner = new Scanner(System.in);
 
     }
@@ -25,10 +25,9 @@ public class BankView {
     public void showMessage(String message) {
         System.out.println(message);
     }
-    public String  getAccountType(){
+    public String  getAccountType() {
         System.out.println("Enter account type (savings, checking) : ");
         return scanner.nextLine();
-//
 
     }
     public String getAccountNumber() {

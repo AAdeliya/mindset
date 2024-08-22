@@ -57,7 +57,7 @@ public class BankController {
                 } else {
                     view.showMessage("Withdrawal failed.");
                 }
-                }else if(command.equalsIgnoreCase("interest") && account instanceof SavingsAccount){
+                }else if (command.equalsIgnoreCase("interest") && account instanceof SavingsAccount){
                     ((SavingsAccount) account).addInterest();
                     view.showMessage("Interest added.");
             } else if (command.equalsIgnoreCase("exit")) {
